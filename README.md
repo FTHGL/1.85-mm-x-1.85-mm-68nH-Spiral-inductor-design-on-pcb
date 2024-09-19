@@ -13,11 +13,13 @@ For more information and a detailed analysis of PCB coil designs, visit [this so
 
 ---
 
-# Research on Spiral PCB Inductor Design and Impedance Matching for my R&D projects process
+# Research and Development Process on Spiral PCB Inductor Design and Impedance Matching for My Projects
 
 The design of spiral PCB inductors for high-frequency applications plays a critical role, especially in projects that require impedance matching. In high-frequency circuits, **impedance matching** is crucial for maintaining signal integrity and minimizing energy losses. In this project, I designed **spiral inductors** specifically for use in impedance matching.
 
 During the design process, I aimed to optimize geometric parameters such as the **number of turns**, **coil diameter**, and **trace width** to ensure that the inductor would be suitable for impedance matching. These parameters are essential for accurately tuning the inductance and ensuring that the impedance matching components function correctly in the circuit. In high-frequency circuits, incorrectly chosen parameters can lead to signal degradation and energy losses. Therefore, in the spiral inductors designed for impedance matching, I carefully selected each geometric parameter and evaluated the results through HFSS software analysis.
 
 The goal of designing spiral PCB inductors in this project was to achieve the most accurate results during impedance matching and improve the efficiency of the circuit. The optimized designs were developed to ensure minimal losses within the operating frequency range of the circuit.
+
+![MODEL](model.png)
 
