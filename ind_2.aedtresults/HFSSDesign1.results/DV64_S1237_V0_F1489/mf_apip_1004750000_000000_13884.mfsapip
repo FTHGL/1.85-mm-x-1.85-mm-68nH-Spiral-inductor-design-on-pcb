@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1726766635
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz'
+	cpumodel:NA
+	cpubrand:intel
+	cpuPhyCores:2
+	cpuLogCores:4
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:6
+	cpuestgflops:76.8
+	cpuestbwkbps:34.1
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:5537
+		matrixbw:19.488
+		matrixnnz:107905
+		rootdim:249
+		mathlib:mkl
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:483
+		factornnz:691969
+		factorestflops:240663226
+		fbsestflops:2263869
+		rootfactestflops:5147252
+		rootfbsestflops:31000
+		analysistimesec:0.01075
+		analysismemkb:2810
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:1
+		factorizationtimesec:0.0713176
+		factorizationmentotalkb:16760
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:1
+		fbsnumsolves:1
+		fbsavgsolvetime1solvesec:0.0033918
+		fbscputimesec:0.0033918
+		fbsmemorytotalkb:20012
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:20012
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver
